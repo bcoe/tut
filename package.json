@@ -1,0 +1,37 @@
+{
+  "name": "tut",
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin",
+    "templates": "./templates"
+  },
+  "main": "./lib/index",
+  "bin": "./bin/tut.js",
+  "version": "1.0.0",
+  "author": "Ben Coe <bencoe@gmail.com>",
+  "scripts": {
+    "test": "make test"
+  },
+  "description": "A package registry for programming tutorials.",
+  "keywords": [
+    "tutorials",
+    "programming",
+    "package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bcoe/tut.git"
+  },
+  "dependencies": {
+    "underscore": ">=0.0.1",
+    "optimist": ">0.0.0",
+	  "async": ">=0.2.9",
+    "mocha": ">=1.7.4",
+    "sinon": ">=1.6.0",
+    "request": "latest",
+    "ejs": "latest",
+    "underscore.string": "latest",
+    "chai": "latest"
+  },
+  "devDependencies": {}
+}
